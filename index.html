@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <title>penguin fashion with tailwind</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
+    
+<style>
+    .roboto-font{
+       font-family: Bebas+Neue;
+    }
+    .man-jackets{
+        margin-top: 50px;
+    }
+</style>
 </head>
-<body>
+<body class="bg-[#FFF]">
     <header class="w-full h-[535px] bg-[#FFFBF0] my-0 mx-auto px-24">
         <nav class="flex  justify-between h-1/6  ">
             <div class="h-5/11 w-[300px] mx-0 my-auto ">
                 <img src="logo.png" alt="logo">
             </div>
-            <ul class="list-none flex justify-evenly w-[600px] items-center text-[#3C3C3C] text-xl ">
+            <div>
+
+            </div>
+            <ul class="list-none flex justify-evenly w-[600px] items-center text-[#3C3C3C] text-xl">
                 <li>Home</li>
                 <li>Product</li>
                 <li>About us</li>
@@ -21,12 +39,12 @@
             </ul>
         </nav>
         <div class="flex items-center justify-between gap-4 ">
-            <div class=" flex gap-4 flex-col h-[400px]">
-                <h2 class="text-[50px] font-[400] font-[Bebas Neue] leading-[90px]"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
+            <div class=" flex gap-4 flex-col h-[360px] pt-[40px] ">
+                <h2 class="text-[50px] font-[400] font-[Bebas Neue] leading-[70px] bebas-neue"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
                    <span class="text-[#363958]"> Of Winter</span></h2>
                 <p>Lorem Ipsum is simply dummy text of the printing 
                     and typesetting industry.</p>
-                    <div class="flex items-center justify-center gap-3 w-[135px] h-[20px] bg-green-800 py-[30px] rounded-lg text-white">
+                    <div class="flex items-center justify-center gap-3 w-[135px] h-[20px] bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-[30px] rounded-lg text-white">
                         <i class="fa-solid fa-cart-shopping"></i>
                         <button>Buy Now</button>
                     </div>
@@ -36,5 +54,163 @@
             </div>
         </div>
     </header>
+
+    <!--this is the main section-->
+
+    <main>
+
+        <!--Womens Jackets Container-->
+
+        <h3 class="text-4xl font-bold mt-8 text-[#363958] mx-[95px] mb-[30px]">WOMAN JACKET</h3>
+        <div class=" h-[400px] grid grid-cols-3 gap-5 mr-[70px]">
+            <div class=" flex flex-col bg-white h-[590px] justify-between mx-[75px] py-[20px] px-[30px] rounded-lg w-[360px]">
+                <div class="w-[300px] h-[320px]  rounded-xl px-8 py-8 bg-gray-300">
+                    <img src="jacket-1.png" alt="women winter yellow color stunning jacket" class=" rounded-xl w-80 -my-4">
+                </div>
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-2xl font-medium text-[#363958]">Yellow Coat Jacket</h3>
+                    <p class="text-xl text-[#363958] w-52 h-[120px]">this is the yellow coat jacket. fot looking gourgeuous and stunning</p>
+                </div>
+                <div class=" w-[250px]  flex justify-between items-center">
+                    <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+                    <div class="flex items-center justify-center gap-3 w-[130px] h-[20px]  py-[30px] rounded-lg text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col bg-white rounded-lg h-[590px] justify-between mx-[75px] py-[20px] px-[30px] w-[360px]">
+                <div class="w-[300px] h-[320px] bg-gray-300 rounded-xl px-8 py-8">
+                    <img src="jacket-2.png" alt="women winter yellow color stunning jacket" class="  rounded-xl w-80 -my-4">
+                </div>
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-2xl font-medium text-[#363958]">Ladies Jacket </h3>
+                    <p class="text-xl text-[#363958] w-52 h-[120px]">this is the yellow coat jacket. fot looking gourgeuous and stunning</p>
+                </div>
+                <div class=" w-[250px]  flex justify-between items-center">
+                    <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+                    <div class="flex items-center justify-center gap-3 w-[130px] h-[20px]  py-[30px] rounded-lg text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col bg-white rounded-lg h-[590px] justify-between mx-[75px] py-[20px] px-[30px] w-[360px]">
+                <div class="w-[300px] h-[320px] bg-gray-300 rounded-xl px-8 py-8">
+                    <img src="jacket-3.png" alt="women winter yellow color stunning jacket" class="  rounded-xl w-80 -my-4">
+                </div>
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-2xl font-medium text-[#363958]">Woman Leather Jacket </h3>
+                    <p class="text-xl text-[#363958] w-52 h-[120px]">this is the yellow coat jacket. fot looking gourgeuous and stunning</p>
+                </div>
+                <div class=" w-[250px]  flex justify-between items-center">
+                    <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+                    <div class="flex items-center justify-center gap-3 w-[130px] h-[20px]  py-[30px] rounded-lg text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Mans Jakect Container-->
+
+        <section class="mt-52">
+        <h3 class="  text-4xl font-bold mt-8 text-[#363958] mx-[95px] mb-[30px]">MAN JACKETS</h3>
+        <div class="  h-[400px] grid grid-cols-3 gap-5 mr-[70px]">
+            <div class=" flex flex-col bg-white h-[590px] justify-between mx-[75px] py-[20px] px-[30px] rounded-lg w-[360px]">
+                <div class="w-[300px] h-[320px]  rounded-xl px-8 py-8 bg-gray-300">
+                    <img src="jacket-4.png" alt="women winter yellow color stunning jacket" class=" rounded-xl w-80 -my-4">
+                </div>
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-2xl font-medium text-[#363958]">Snowboard Jacket Mens</h3>
+                    <p class="text-xl text-[#363958] w-52 h-[120px]">this is the yellow coat jacket. fot looking gourgeuous and stunning</p>
+                </div>
+                <div class=" w-[250px]  flex justify-between items-center">
+                    <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+                    <div class="flex items-center justify-center gap-3 w-[130px] h-[20px]  py-[30px] rounded-lg text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col bg-white rounded-lg h-[590px] justify-between mx-[75px] py-[20px] px-[30px] w-[360px]">
+                <div class="w-[300px] h-[320px] bg-gray-300 rounded-xl px-8 py-8">
+                    <img src="jacket-5.png" alt="women winter yellow color stunning jacket" class="  rounded-xl w-80 -my-4">
+                </div>
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-2xl font-medium text-[#363958]">Man Leather Jackets</h3>
+                    <p class="text-xl text-[#363958] w-52 h-[120px]">this is the yellow coat jacket. fot looking gourgeuous and stunning</p>
+                </div>
+                <div class=" w-[250px]  flex justify-between items-center">
+                    <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+                    <div class="flex items-center justify-center gap-3 w-[130px] h-[20px]  py-[30px] rounded-lg text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col bg-white rounded-lg h-[590px] justify-between mx-[75px] py-[20px] px-[30px] w-[360px]">
+                <div class="w-[300px] h-[320px] bg-gray-300 rounded-xl px-8 py-8">
+                    <img src="jacket-6.png" alt="women winter yellow color stunning jacket" class="  rounded-xl w-80 -my-4">
+                </div>
+                <div class="flex flex-col justify-between">
+                    <h3 class="text-2xl font-medium text-[#363958]">Man Casual Jackets</h3>
+                    <p class="text-xl text-[#363958] w-52 h-[120px]">this is the yellow coat jacket. fot looking gourgeuous and stunning</p>
+                </div>
+                <div class=" w-[250px]  flex justify-between items-center">
+                    <p class="text-[#FABE4C] text-4xl font-bold">$234</p>
+                    <div class="flex items-center justify-center gap-3 w-[130px] h-[20px]  py-[30px] rounded-lg text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!--this is the footer section-->
+    <footer class="mt-52 h-[450px] flex justify-evenly  items-center">
+    <section class="h-[350px] w-[398px] flex flex-col justify-center gap-8 items-center jus ">
+        <div class="w-[370px] flex justify-between items-center bg-[#FFF] rounded-lg">
+            <div class="h-[60px] mx-0 my-auto ">
+                <img src="house.png" alt="house icons" class="w-[60px] ">
+            </div>
+            <div class=" w-[280px]">
+                <h2 class="text-[#363958] text-2xl font-bold">Find the Perfect Fit</h2>
+                <p class="w-[800] text-[#363958] text-[18px] leading-6">Everybody is different, which is why we
+                    offer styles for every body.</p>
+            </div>
+        </div>
+        <div class="w-[370px] flex justify-between items-center bg-[#FFF] rounded-lg">
+            <div class="h-[60px] mx-0 my-auto ">
+                <img src="box.png" alt="house icons" class="w-[60px] ">
+            </div>
+            <div class=" w-[280px]">
+                <h2 class="text-[#363958] text-2xl font-bold">Free Exchanges</h2>
+                <p class="w-[800] text-[#363958] text-[18px] leading-6">Everybody is different, which is why we
+                    offer styles for every body.</p>
+            </div>
+        </div>
+        <div class="w-[370px] flex justify-between items-center bg-[#FFF] rounded-lg">
+            <div class="h-[60px] mx-0 my-auto ">
+                <img src="question.png" alt="house icons" class="w-[60px] ">
+            </div>
+            <div class=" w-[280px]">
+                <h2 class="text-[#363958] text-2xl font-bold w-[400]">Contact Our Seller</h2>
+                <p class="w-[800] text-[#363958] text-[18px] leading-6">Everybody is different, which is why we
+                    offer styles for every body.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--section two-->
+
+    <section>
+        <img src="shopping.png" alt="shoppin card picture" class="h-[320px]">
+    </section>
+    </footer>
 </body>
 </html>
