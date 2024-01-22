@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin fashion with tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header class="w-full h-[535px] bg-[#FFFBF0] my-0 mx-auto px-24">
+        <nav class="flex  justify-between h-1/6  ">
+            <div class="h-5/11 w-[300px] mx-0 my-auto ">
+                <img src="logo.png" alt="logo">
+            </div>
+            <ul class="list-none flex justify-evenly w-[600px] items-center text-[#3C3C3C] text-xl ">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+        <div class="flex items-center justify-between gap-4 ">
+            <div class=" flex gap-4 flex-col h-[400px]">
+                <h2 class="text-[50px] font-[400] font-[Bebas Neue] leading-[90px]"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                   <span class="text-[#363958]"> Of Winter</span></h2>
+                <p>Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+                    <div class="flex items-center justify-center gap-3 w-[135px] h-[20px] bg-green-800 py-[30px] rounded-lg text-white">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button>Buy Now</button>
+                    </div>
+            </div>
+            <div class="h-[300px]">
+                <img src="model.png" alt="Model picture" class="w-[300px] mt-[-50px] mr-[280px]">
+            </div>
+        </div>
+    </header>
 </body>
 </html>
